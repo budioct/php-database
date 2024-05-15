@@ -11,7 +11,7 @@ $customers = $statement->fetchAll(); // fetchAll() // get data sekaligus
 
 var_dump($customers);
 
-$connection = null;
+$PDO = null;
 
 /**
  * result:

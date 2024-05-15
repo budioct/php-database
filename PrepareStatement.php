@@ -44,5 +44,5 @@ if ($success) {
     echo "Gagal login" . PHP_EOL;
 }
 
-$connection = null;
+$PDO = null;
 

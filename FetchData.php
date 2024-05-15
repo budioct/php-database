@@ -21,4 +21,4 @@ if ($row = $statement->fetch()) {
 }
 
 // tutup koneksi DB
-$connection = null;
+$PDO = null;
